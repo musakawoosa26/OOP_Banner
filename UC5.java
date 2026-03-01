@@ -14,4 +14,4 @@ public class UC5 {
             System.out.println(lines[i]);
         }
     }
-}
+}  
