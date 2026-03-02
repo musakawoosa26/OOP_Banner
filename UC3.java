@@ -1,16 +1,14 @@
-/*
-@version 1.0
-@author Musa
- */
- 
- public class Helloworld{
-  public static oid main(string args[]){
-	 System.out.println("   ***   " + "  " + "   ***  " + "  " + " ****** " + "  " + "   *****");
-     System.out.println(" **   **" + "  " + "  **   **" + "  " + " **   **" + "  " + " **");
-     System.out.println("**     **" + "  " + "**     **" + "  " + "**   **" + "  "+ "**");
-     System.out.println("**     **" + "  " + "**     **" + "  " + "****** " + "  " + "  *****");
-     System.out.println("**     **" + "  " +  "**     **" + "  " + "**    " + "  " + "      **");
-     System.out.println(" **   **" + "  " + "  **   **" + "  " + " **    " + "  " + " **   **");
-     System.out.println("   ***   " + "  " + "   ***   " + "  " + "**    " + "  " + "  *****   ");
-  }
- }
+class UC3 {
+    public static void main(String[] args) {
+
+        String oops = String.join("\n",
+                " *****   *****   *****   ***** ",
+                "*     * *     * *     * *      ",
+                "*     * *     * * * * *  ***** ",
+                "*     * *     * *            * ",
+                " *****   *****  *        ***** "
+        );
+
+        System.out.println(oops);
+    }
+}
