@@ -1,15 +1,14 @@
-// This is Main branch
-
-/*
-This is Main branch
-
-@version 1.0
-@author Musa
-
+/**
+*OOPSBannerApp UC1 - OOPS Banner Display Application
+*
+*This class demonstrates  simple Jana application that displays the Object
+*Oriented programming Sysyem OOPS acronym to the console.
+*
+*@auhor Musa
+*@version 1.0
 */
-
-class OOPmain{
-    public static main(String args[]){
-        system.out.println("This is main branch");
-    }
+public class OOPSBannerApp{
+    public static void main(String[] args){
+	    system.out.println(x:"OOPS");
+		}
 }
